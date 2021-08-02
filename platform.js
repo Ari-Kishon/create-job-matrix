@@ -6,3 +6,5 @@ const createMatrix = (platform) => {
             break;
     }
 }
+const platform = core.getInput('os');
+createMatrix(platform)
